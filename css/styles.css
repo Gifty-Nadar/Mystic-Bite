@@ -1,0 +1,178 @@
+body {
+  font-family: 'Source Serif Pro', serif;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Cardo', serif-bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading section */
+.heading-1 {
+  font-family: 'Cardo', serif;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* color/white sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+background: #fff;
+}
+/* Navigation bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Cardo';
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #A55858;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title img */
+.pup {
+  width: 250px;
+  height: 400px;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section  */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+
+/* icon of easy to use etc */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* for hovering */
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.pricing-column:hover {
+  color: #ff4c68;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* <!-- Call to Action --> */
+#cta {
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Cardo', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 17%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+   font-size: 2rem;  /*used to change the font size of the icon */
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .pup {
+    position: static;
+    transform: rotate(0);
+  }
